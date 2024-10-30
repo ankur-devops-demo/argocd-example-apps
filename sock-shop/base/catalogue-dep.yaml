@@ -5,6 +5,8 @@ metadata:
   name: catalogue
   labels:
     name: catalogue
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   replicas: 1
   selector:

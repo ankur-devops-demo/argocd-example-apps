@@ -5,6 +5,8 @@ metadata:
   name: rabbitmq
   labels:
     name: rabbitmq
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   replicas: 1
   selector:

@@ -5,6 +5,8 @@ metadata:
   name: user-db
   labels:
     name: user-db
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   replicas: 1
   selector:

@@ -5,6 +5,8 @@ metadata:
   name: front-end
   labels:
     name: front-end
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
 spec:
   type: LoadBalancer
   ports:

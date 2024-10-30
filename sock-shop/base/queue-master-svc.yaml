@@ -7,6 +7,7 @@ metadata:
     name: queue-master
   annotations:
     prometheus.io/path: "/prometheus"
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   ports:
     # the port that this service should serve on

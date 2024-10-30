@@ -5,6 +5,8 @@ metadata:
   name: queue-master
   labels:
     name: queue-master
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   replicas: 1
   selector:

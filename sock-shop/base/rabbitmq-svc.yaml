@@ -5,6 +5,8 @@ metadata:
   name: rabbitmq
   labels:
     name: rabbitmq
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   ports:
     # the port that this service should serve on
